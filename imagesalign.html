@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+    
+ .circle{
+        border-radius:50%;
+    }
+     
+    
+</style>
+</head>
+<body>
+
+
+
+<div class="row">
+  <div class="column">
+    <img src="Images/NationalParkView.jpg" alt="photo" class="circle" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Images/RiverSunset.jpg" alt="photo" class="circle" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Images/TeaTreeBay.jpg" alt="photo" class="circle" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>
